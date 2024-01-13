@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>A7A site</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="shortcut icon" type="x-icon" href="Screenshot_2023.png">
+    
+</head>
+<body>
+    <script src="Contact form.js"></script>
+    
+
+    <!--navbar-->
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="/index.html" id="navbar-logo">A7A <p>site</p></a>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar--menu">
+                <li class="navbar--item">
+                    <a href="/index.html" class="navbar--links">Home</a>
+                </li>
+                <li class="navbar--item">
+                    <a href="/competitions.html" class="navbar--links">competitions</a>
+                </li>
+                <li class="navbar--item">
+                    <a href="/contact.html" class="navbar--links">Contact</a>
+                </li>
+                <li class="navbar--btn">
+                    <a href="/sign up.html" class="button">sign up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Contact form-->
+
+    <div class="container">
+        <form action="" id="form">
+            <h1>Send Us Your Message</h1>
+            <div class="input-group">
+            <label for="username">Name and Surname</label>
+            <input type="text" id="username" required>
+            <div class="error"></div>
+        </div>
+        <div class="input-group">
+            <label for="gamertag">Gamertag</label>
+            <input type="text" id="gamertag" required> 
+            <div class="error"></div>
+        </div>
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <div class="error"></div>
+        </div>
+        <div class="input-group">
+            <label for="message">Write your message here</label>
+            <input type="textarea" id="textarea" required></input>
+            <div class="error"></div>
+        </div>
+        <div class="regester--botton">
+            <button type="submit" class="submit"><span class="regester--span">Send</span></button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

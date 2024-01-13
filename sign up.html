@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>A7A site</title>
+    <link rel="stylesheet" href="sign up.css">
+    <link rel="shortcut icon" type="x-icon" href="Screenshot_2023.png">
+    
+</head>
+<body>
+
+        <!--navbar-->
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="/index.html" id="navbar-logo">A7A <p>site</p></a>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar--menu">
+                <li class="navbar--item">
+                    <a href="/index.html" class="navbar--links">Home</a>
+                </li>
+                <li class="navbar--item">
+                    <a href="/competitions.html" class="navbar--links">competitions</a>
+                </li>
+                <li class="navbar--item">
+                    <a href="/contact.html" class="navbar--links">Contact</a>
+                </li>
+                <li class="navbar--btn">
+                    <a href="/sign up.html" class="button">sign up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!--sign up form-->
+
+    <div class="container">
+        <form action="" id="form">
+            <h1>Register</h1>
+            <div class="input-group">
+            <label for="username">User Name</label>
+            <input type="text" id="username" required>
+            <div class="error"></div>
+        </div>
+        <div class="input-group">
+            <label for="Gamertag">Gamertag</label>
+            <input type="text" id="Gamertag" required> 
+            <div class="error"></div>
+        </div>
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <div class="error"></div>
+        </div>
+        <div class="input-group">
+            <label for="choose">Choose your Battlefield</label>
+            <select type="text" id="choose">
+                <option value="your choice">Your Choice</option>
+                <option value="Overwatch 2">Overwatch 2</option>
+                <option value="Apex Legends">Apex Legends</option>
+                <option value="the finals">The Finals</option>
+                <option value="ea Sport fc24">EA Sport FC24</option>
+            </select>
+            <div class="error"></div>
+        </div>
+        <div class="regester--botton">
+            <button type="submit"><span class="regester--span">Register</span></button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
