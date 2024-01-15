@@ -4,7 +4,7 @@ window.addEventListener('scroll', () => {
 
     elements.forEach(element => {
         const elementPosition = element.getBoundingClientRect().top;
-        const revealPoint = 100; // adjust as needed
+        const revealPoint = 50; // adjust as needed
 
         if(elementPosition < windowHeight - revealPoint) {
             element.style.opacity = '1';
