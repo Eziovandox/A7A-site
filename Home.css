@@ -164,6 +164,7 @@ img {
     width: 50%;
     flex: 0 0 auto;
     margin-top: -20px;
+    margin-left: 40px;
 }
 .main--content h1{
     font-family: 'garde';
@@ -236,9 +237,10 @@ img {
     margin-bottom: 30px;
 }
 
-.info--text{width: 50%;
-    padding-right: 15px;
-    padding-left: 15px;
+.info--text{
+    width: 50%;
+    padding-right: 5px;
+    padding-left: 35px;
     flex: 0 0 auto;
     max-width: 100%;
 }
